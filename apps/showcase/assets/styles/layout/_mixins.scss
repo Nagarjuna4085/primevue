@@ -8,7 +8,9 @@
 @mixin doc-link() {
     color: var(--primary-text-color);
     font-weight: 500;
-    transition: outline-color .2s, border-color .2s;
+    transition:
+        outline-color 0.2s,
+        border-color 0.2s;
     outline-color: transparent;
     border-radius: 6px;
     @include focus-visible();

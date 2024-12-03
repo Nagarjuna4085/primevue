@@ -12,7 +12,7 @@
         border: none;
         cursor: pointer;
     }
-    
+
     [type='color']::-webkit-color-swatch {
         border-radius: 4px;
         width: 24px;
@@ -23,5 +23,4 @@
     .p-fieldset-toggleable > .p-fieldset-legend:hover {
         background: transparent;
     }
-
 }

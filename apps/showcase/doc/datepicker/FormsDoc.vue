@@ -26,13 +26,16 @@ export default {
             },
             resolver: zodResolver(
                 z.object({
-                    date: z.preprocess((val) => {
-                        if (val === '' || val === null) {
-                            return null;
-                        }
+                    date: z.preprocess(
+                        (val) => {
+                            if (val === '' || val === null) {
+                                return null;
+                            }
 
-                        return new Date(val);
-                    }, z.union([z.date(), z.null().refine((val) => val !== null, { message: 'Date is required.' })]))
+                            return new Date(val);
+                        },
+                        z.union([z.date(), z.null().refine((val) => val !== null, { message: 'Date is required.' })])
+                    )
                 })
             ),
             code: {

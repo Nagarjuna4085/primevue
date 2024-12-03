@@ -12,7 +12,9 @@
     a {
         color: var(--primary-text-color);
         font-weight: 700;
-        transition: outline-color .2s, border-color .2s;
+        transition:
+            outline-color 0.2s,
+            border-color 0.2s;
         outline-color: transparent;
         border-radius: 6px;
 
@@ -21,6 +23,5 @@
         &:hover {
             text-decoration: underline;
         }
-        
     }
 }

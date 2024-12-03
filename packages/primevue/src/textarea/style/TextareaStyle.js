@@ -11,8 +11,8 @@ const theme = ({ dt }) => `
     padding-inline: ${dt('textarea.padding.x')};
     border: 1px solid ${dt('textarea.border.color')};
     transition: background ${dt('textarea.transition.duration')}, color ${dt('textarea.transition.duration')}, border-color ${dt('textarea.transition.duration')}, outline-color ${dt('textarea.transition.duration')}, box-shadow ${dt(
-    'textarea.transition.duration'
-)};
+        'textarea.transition.duration'
+    )};
     appearance: none;
     border-radius: ${dt('textarea.border.radius')};
     outline-color: transparent;

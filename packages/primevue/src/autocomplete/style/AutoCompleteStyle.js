@@ -44,8 +44,8 @@ const theme = ({ dt }) => `
     border-inline-start: 0 none;
     color: ${dt('autocomplete.dropdown.color')};
     transition: background ${dt('autocomplete.transition.duration')}, color ${dt('autocomplete.transition.duration')}, border-color ${dt('autocomplete.transition.duration')}, outline-color ${dt('autocomplete.transition.duration')}, box-shadow ${dt(
-    'autocomplete.transition.duration'
-)};
+        'autocomplete.transition.duration'
+    )};
     outline-color: transparent;
 }
 
@@ -149,8 +149,8 @@ const theme = ({ dt }) => `
     border-radius: ${dt('autocomplete.border.radius')};
     width: 100%;
     transition: background ${dt('autocomplete.transition.duration')}, color ${dt('autocomplete.transition.duration')}, border-color ${dt('autocomplete.transition.duration')}, outline-color ${dt('autocomplete.transition.duration')}, box-shadow ${dt(
-    'autocomplete.transition.duration'
-)};
+        'autocomplete.transition.duration'
+    )};
     outline-color: transparent;
     box-shadow: ${dt('autocomplete.shadow')};
 }

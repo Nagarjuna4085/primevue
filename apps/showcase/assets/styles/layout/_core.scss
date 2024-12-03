@@ -1,12 +1,34 @@
 html {
     font-size: 14px;
-    font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+    font-family:
+        'Inter var',
+        -apple-system,
+        BlinkMacSystemFont,
+        'Segoe UI',
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif,
+        'Apple Color Emoji',
+        'Segoe UI Emoji',
+        'Segoe UI Symbol';
+    font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
     line-height: normal;
 }
 
 .material {
-    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family:
+        'Roboto',
+        -apple-system,
+        BlinkMacSystemFont,
+        'Segoe UI',
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif,
+        'Apple Color Emoji',
+        'Segoe UI Emoji',
+        'Segoe UI Symbol';
 }
 
 body {
@@ -73,7 +95,7 @@ h5 {
 }
 
 h6 {
-    font-size: .875rem;
+    font-size: 0.875rem;
 }
 
 p {

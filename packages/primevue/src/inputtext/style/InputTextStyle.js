@@ -11,8 +11,8 @@ const theme = ({ dt }) => `
     padding-inline: ${dt('inputtext.padding.x')};
     border: 1px solid ${dt('inputtext.border.color')};
     transition: background ${dt('inputtext.transition.duration')}, color ${dt('inputtext.transition.duration')}, border-color ${dt('inputtext.transition.duration')}, outline-color ${dt('inputtext.transition.duration')}, box-shadow ${dt(
-    'inputtext.transition.duration'
-)};
+        'inputtext.transition.duration'
+    )};
     appearance: none;
     border-radius: ${dt('inputtext.border.radius')};
     outline-color: transparent;
